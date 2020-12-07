@@ -1,18 +1,29 @@
 {
-  "name": "vue-hello-world-simple",
-  "description": "A simple vuejs Hello World Plugin",
-  "version": "0.1.1",
-  "private": false,
-  "author": {
-    "name": "Tushar Gugnani",
-    "email": "tushar@5balloons.info"
+  "name": "@aacassandra/vue3-progressbar",
+  "version": "1.0.0",
+  "description": "A lightweight progress bar for vuejs 3",
+  "main": ".dist/vue3-progressbar.common.js",
+  "publishConfig": {
+    "access": "public"
   },
-  "repository": "https://github.com/tushargugnani/vue-hello-world-simple",
-  "bugs": "https://github.com/tushargugnani/vue-hello-world-simple/issues",
+  "author": {
+    "name": "Alauddin Afif Cassandra",
+    "email": "alauddinafifcassandra@programmer.net",
+    "url": "https://aacassandra-github.web.app"
+  },
+  "repository": "https://github.com/aacassandra/vue3-progressbar",
+  "bugs": "https://github.com/aacassandra/vue3-progressbar/issues",
+  "homepage": "https://github.com/aacassandra/vue3-progressbar#readme",
   "keywords": [
-    "keywords",
-    "go",
-    "here"
+    "vue",
+    "vue-progressbar",
+    "vue loading progress",
+    "vue progressbar",
+    "vue3",
+    "vue3-progressbar",
+    "vue3 loading progress",
+    "vue3 progressbar",
+    "progressbar"
   ],
   "license": "MIT",
   "files": [
@@ -24,7 +35,6 @@
     "build-library": "vue-cli-service build --target lib --name vue3-progressbar ./src/index.js",
     "lint": "vue-cli-service lint"
   },
-  "main": ".dist/vue-progressbar.js",
   "dependencies": {
     "core-js": "^3.8.1",
     "vue": "^3.0.3"
