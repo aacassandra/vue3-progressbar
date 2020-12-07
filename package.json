@@ -1,6 +1,6 @@
 {
   "name": "@aacassandra/vue3-progressbar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight progress bar for vuejs 3",
   "main": "dist/vue3-progressbar.common.js",
   "publishConfig": {

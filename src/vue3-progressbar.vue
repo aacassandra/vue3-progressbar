@@ -1,11 +1,5 @@
-<style>
-.__cov-progress {
-  opacity: 1;
-  z-index: 999999;
-}
-</style>
 <template>
-  <div class="__cov-progress" :style="finalStyle"></div>
+  <div :style="finalStyle"></div>
 </template>
 <script>
 import { inject, computed } from 'vue';
@@ -40,6 +34,7 @@ export default {
       const isShow = !!options.show;
       const location = options.location;
       const style = {
+        'z-index': 999999,
         'background-color': options.canSuccess ? options.color : options.failedColor,
         opacity: options.show ? 1 : 0,
         position: options.position
