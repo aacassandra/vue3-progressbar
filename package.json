@@ -1,0 +1,65 @@
+{
+  "name": "vue-hello-world-simple",
+  "description": "A simple vuejs Hello World Plugin",
+  "version": "0.1.1",
+  "private": false,
+  "author": {
+    "name": "Tushar Gugnani",
+    "email": "tushar@5balloons.info"
+  },
+  "repository": "https://github.com/tushargugnani/vue-hello-world-simple",
+  "bugs": "https://github.com/tushargugnani/vue-hello-world-simple/issues",
+  "keywords": [
+    "keywords",
+    "go",
+    "here"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-library": "vue-cli-service build --target lib --name vue3-progressbar ./src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": ".dist/vue-progressbar.js",
+  "dependencies": {
+    "core-js": "^3.8.1",
+    "vue": "^3.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.4",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
