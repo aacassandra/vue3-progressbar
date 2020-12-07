@@ -388,7 +388,6 @@ function src_assign(target, source) {
       start: function start(time) {
         var _this = this;
 
-        console.log('start!');
         if (!time) time = 3000;
         RADON_LOADING_BAR.percent = 0; // RADON_LOADING_BAR.percent
 

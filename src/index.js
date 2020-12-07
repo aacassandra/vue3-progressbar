@@ -52,7 +52,6 @@ export default {
         cut: 0
       },
       start(time) {
-        console.log('start!');
         if (!time) time = 3000;
         RADON_LOADING_BAR.percent = 0; // RADON_LOADING_BAR.percent
         RADON_LOADING_BAR.options.show = true;
