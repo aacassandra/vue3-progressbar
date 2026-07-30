@@ -223,5 +223,6 @@ export default {
 
     app.component('vue-progress-bar', View);
     app.config.globalProperties.$Progress = Progress;
+    app.provide('$Progress', Progress);
   }
 };
